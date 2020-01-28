@@ -4,7 +4,7 @@
 
 ### Previous Projects
 
-[Project 1](projects/project1)
+[Burglaries in New York City](projects/project1)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
