@@ -8,7 +8,7 @@
 <img src="images/map1_ofawesomeness.png?raw=true"/>
 
 ---
-[Project 2](/pdf/sample_presentation.pdf)
+[Antarctic Land Cover](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
