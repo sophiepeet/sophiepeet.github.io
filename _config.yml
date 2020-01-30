@@ -1,13 +1,9 @@
 title: Sophie Peet # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Sophie Peet
-  <br><br>
-  UMBC 
-  <br><br>
-  Environmental Science
-  <br><br>
-  <a href="https://www.linkedin.com/in/sophie-peet-885b3b152/">LinkedIn Profile</a> 
-  
+  Sophie Peet<br>
+  <small>UMBC Environmental Science<br>
+  <a href="https://www.linkedin.com/in/sophie-peet-885b3b152/">LinkedIn Profile</a><br> 
+  </small>
 theme: jekyll-theme-tactile
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
