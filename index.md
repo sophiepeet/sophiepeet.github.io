@@ -6,6 +6,8 @@
 
 [Snurtle Habitat Range, Utah, USA](projects/Lab6_Part2.pdf)
 <img src="images/map1_ofawesomeness.png?raw=true"/>
+This map was comprised from an exercise using a model builder in ArcMap. The data and 
+guidelines were provided regarding these fictional creatures.
 
 ---
 [Total Polar Ice Melt, Land Cover Antarctica](projects/AntarcticaMaps.pdf)
