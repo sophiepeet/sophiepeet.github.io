@@ -4,11 +4,11 @@
 
 ### Previous Projects
 
-[Snurtle Habitat Range, Utah, USA](projects/project1)
+[Snurtle Habitat Range, Utah, USA](projects/Lab6_Part2.pdf)
 <img src="images/map1_ofawesomeness.png?raw=true"/>
 
 ---
-[Total Polar Ice Melt, Land Cover Antarctica](/pdf/AntarcticaMaps.pdf)
+[Total Polar Ice Melt, Land Cover Antarctica](projects/AntarcticaMaps.pdf)
 <img src="images/map2_antarctica.png?raw=true"/>
 
 ---
