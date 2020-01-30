@@ -8,13 +8,13 @@
 <img src="images/map1_ofawesomeness.png?raw=true"/>
 
 ---
-[Antarctic Land Cover](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Total Polar Ice Melt, Land Cover Antarctica](/pdf/sample_presentation.pdf)
+<img src="images/map2_antarctica?raw=true"/>
 
 ---
 
 
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+<p style="font-size:14px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
