@@ -9,7 +9,7 @@
 
 ---
 [Total Polar Ice Melt, Land Cover Antarctica](/pdf/sample_presentation.pdf)
-<img src="images/map2_antarctica?raw=true"/>
+<img src="images/map2_antarctica.png?raw=true"/>
 
 ---
 
