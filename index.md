@@ -13,9 +13,3 @@ This map was comprised from an exercise using a model builder in ArcMap. The dat
 This series of maps explores the possibility of total polar and global ice melt, and shows how each of these conditions would affect Antarcticas land cover. There are also references for current conditions, of general elevation and bedrock elevation. Though the last two maps may look very similar there is more land lost from total global ice melt and could potentially be detrimental for habitats around Antarctica.
 
 ---
-
-
-
----
-<p style="font-size:14px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
