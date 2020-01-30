@@ -8,7 +8,7 @@
 <img src="images/map1_ofawesomeness.png?raw=true"/>
 
 ---
-[Total Polar Ice Melt, Land Cover Antarctica](/pdf/sample_presentation.pdf)
+[Total Polar Ice Melt, Land Cover Antarctica](/pdf/AntarcticaMaps.pdf)
 <img src="images/map2_antarctica.png?raw=true"/>
 
 ---
