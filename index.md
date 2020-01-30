@@ -4,8 +4,8 @@
 
 ### Previous Projects
 
-[Burglaries in New York City](projects/project1)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Utah Habitat Range](projects/project1)
+<img src="images/map1_ofawesomeness.png?raw=true"/>
 
 ---
 [Project 2](/pdf/sample_presentation.pdf)
