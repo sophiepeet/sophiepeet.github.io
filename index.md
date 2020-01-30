@@ -4,7 +4,7 @@
 
 ### Previous Projects
 
-[Utah Habitat Range](projects/project1)
+[Snurtle Habitat Range, Utah, USA](projects/project1)
 <img src="images/map1_ofawesomeness.png?raw=true"/>
 
 ---
