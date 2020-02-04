@@ -1,5 +1,4 @@
-# Sophie Peet - Personal Portfolio
-## Portfolio 
+## Sophie Peet - Portfolio 
 ---
 
 ### Previous Projects
