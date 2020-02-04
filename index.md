@@ -1,4 +1,5 @@
-## Portfolio Grass
+# Sophie Peet - Personal Portfolio
+## Portfolio 
 ---
 
 ### Previous Projects
