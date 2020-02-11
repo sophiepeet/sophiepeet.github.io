@@ -3,6 +3,16 @@
 **Project Description**: 
 This is a series of maps created to hihglight the effect of sea levels change in and around<br>
 Antarctica due to melting of polar and global ice. Included is an isostatic elevation model. <br>
-These maps were created using raster calculator in ArcMap and other raster tools.
+These maps were created using raster calculator in ArcMap and other spatial statistics tools.
+
+Tools used:
+- 
+- 
+- 
+- 
+- 
+- 
+
 
 [Download Full PDF](/pdf/AntarcticaMaps.pdf)
+<a href="sophiepeet.github.io">Back to Home </a>
