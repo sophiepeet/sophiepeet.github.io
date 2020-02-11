@@ -1,8 +1,10 @@
 title: Sophie Peet # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
+ <strong>UMBC Environmental Science</strong><br>
+ 
  <a href="github.com/sophiepeet/sophiepeet.github.io">Github Repository</a><br>
-  <strong>UMBC Environmental Science</strong><br>
+  
   <a href="https://www.linkedin.com/in/sophie-peet-885b3b152/">LinkedIn Profile</a><br> 
  
 theme: jekyll-theme-tactile
