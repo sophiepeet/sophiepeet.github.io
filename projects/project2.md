@@ -14,5 +14,5 @@ Tools used:
 - 
 
 
-[Download Full PDF](/pdf/AntarcticaMaps.pdf)
+[Download Full PDF](/pdf/AntarcticaMaps.pdf)<br>
 <a href="sophiepeet.github.io">Back to Home </a>
