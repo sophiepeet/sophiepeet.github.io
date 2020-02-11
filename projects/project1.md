@@ -20,4 +20,5 @@ Tools used:
 - Dissolve
 
 [Download PDF](/projects/Lab6_Part2.pdf)<br>
-<a href="/">Back to Home </a>
+<a href="https://sophiepeet.github.io">Back to Home</a>
+<!-- birds aren't real -->
