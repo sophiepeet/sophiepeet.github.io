@@ -1,4 +1,5 @@
-## Project 2: Analysis of Elevation in Artica
+## Project 2: Analysis of Elevation in Antarctica<br>
+<img src="/images/antarctica2.png?raw=true"/>
 
 **Project Description**: 
 This is a series of maps created to hihglight the effect of sea levels change in and around<br>
