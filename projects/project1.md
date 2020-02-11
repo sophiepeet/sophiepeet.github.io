@@ -1,5 +1,7 @@
 ## Snurtle and Box Elder Cat Habitat<br>
 
+[<img src="url"/>](/projects/Lab6_Part2.pdf)
+
 ### **Project description:** <br>
 This project was created using ArcMap model builder.<br>
 These species had a set of contraints, such as buffers and forbidden areas <br>
@@ -15,5 +17,5 @@ Tools used:
 - Clip
 - Merge
 - Dissolve
-<br>
-["Download PDF"](/projects/Lab6_Part2.pdf)
+
+[Download PDF](/projects/Lab6_Part2.pdf)
