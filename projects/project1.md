@@ -7,10 +7,10 @@ they were able to live in. Using this set of constraints, I was able to create <
 a comprehensive map of where each spcies could live, and where their <br>
 habitats overlapped. <br>
 Tools used:
--Erase
--Union
--Intersect
--Buffer
--Clip
--Merge
--Dissolve
+- Erase
+- Union
+- Intersect
+- Buffer
+- Clip
+- Merge
+- Dissolve
