@@ -19,4 +19,4 @@ Tools used:
 - Dissolve
 
 [Download PDF](/projects/Lab6_Part2.pdf)<br>
- <a href="github.sophiepeet.io/">Back to Home </a>
+ <a href="sophiepeet.github.io/">Back to Home </a>
