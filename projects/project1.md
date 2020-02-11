@@ -16,4 +16,4 @@ Tools used:
 - Merge
 - Dissolve
 <br>
-[Download PDF](/projects/Lab6_Part2.pdf)
+["Download PDF"](/projects/Lab6_Part2.pdf)
