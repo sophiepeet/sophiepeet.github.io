@@ -18,5 +18,5 @@ Tools used:
 - Merge
 - Dissolve
 
-[Download PDF](/projects/Lab6_Part2.pdf)
- <a href="https://www.linkedin.com/in/sophie-peet-885b3b152/">Back to Home </a>
+[Download PDF](/projects/Lab6_Part2.pdf)<br>
+ <a href="github.sophiepeet.io/">Back to Home </a>
