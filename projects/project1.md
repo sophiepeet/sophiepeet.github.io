@@ -1,5 +1,16 @@
-## SNurtle and Box Elder Cat Project
+## Snurtle and Box Elder Cat Project<br>
 
-**Project description:** 
-This project was created using ArcMap model builder.
-Althought the species in this project are ficticuo
+### **Project description:** <br>
+This project was created using ArcMap model builder.<br>
+These species had a set of contraints, such as buffers and forbidden areas <br>
+they were able to live in. Using this set of constraints, I was able to create <br>
+a comprehensive map of where each spcies could live, and where their <br>
+habitats overlapped. <br>
+Tools used:
+-Erase
+-Union
+-Intersect
+-Buffer
+-Clip
+-Merge
+-Dissolve
