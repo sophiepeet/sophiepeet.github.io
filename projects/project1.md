@@ -1,6 +1,7 @@
-## Snurtle and Box Elder Cat Habitat<br>
+## Snurtle and Box Elder Cat Habitat
 
 <img src="images/snurtle2.png?raw=true"/>
+<img src="images/map1_ofawesomeness.png?raw=true"/>
 
 ### **Project description:** <br>
 This project was created using ArcMap model builder.<br>
