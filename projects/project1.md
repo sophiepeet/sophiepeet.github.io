@@ -1,6 +1,6 @@
 ## Snurtle and Box Elder Cat Habitat<br>
 
-<img src="images/snurtle2.png?raw=true"/>
+<img src="images/snurtle1.png?raw=true"/>
 
 ### **Project description:** <br>
 This project was created using ArcMap model builder.<br>
@@ -19,4 +19,4 @@ Tools used:
 - Dissolve
 
 [Download PDF](/projects/Lab6_Part2.pdf)<br>
- <a href="sophiepeet.github.io/">Back to Home </a>
+<a href="https://sophiepeet.github.io/">Back to Home </a>
