@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+# GIS Portfolio
 ## Current and Previous Projects
  
 [Snurtle Habitat Range, Utah, USA](/projects/project1) <br><br>
