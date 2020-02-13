@@ -1,10 +1,8 @@
-title: Sophie Peet # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
- <strong>UMBC Environmental Science</strong><br>
- 
+title: Sophie Peet - Portfolio
+description: UMBC Environmental Science
  <a href="https://github.com/sophiepeet?tab=repositories">Github Repository</a><br>
-
- 
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-tactile
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+ 
+
