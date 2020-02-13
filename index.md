@@ -1,4 +1,5 @@
-## Sophie Peet - Portfolio 
+# Sophie Peet 
+## GIS Portfolio 
 ---
 
 ### Previous Projects
