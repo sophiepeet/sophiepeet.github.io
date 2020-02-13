@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Current and Previous Projects
+## Current and Previous Projects
  
 [Snurtle Habitat Range, Utah, USA](/projects/project1) <br><br>
 [<img src="images/map1_ofawesomeness.png?raw=true"/>](projects/Lab6_Part2.pdf) <br><br>
