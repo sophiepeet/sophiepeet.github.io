@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+---
 # GIS Portfolio
 ## Current and Previous Projects
 ---
