@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css"><link rel="stylesheet" href="css/L.Control.Locate.min.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <style>
+        #map {
+            width: 1500px;
+            height: 805px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script><script src="js/L.Control.Locate.min.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="data/UnitedStates_1.js"></script>
+        <script src="data/NationalParks_2.js"></script>
+        <script>
+        var highlightLayer;
+        function highlightFeature(e) {
+            highlightLayer = e.target;
+            highlightLayer.openPopup();
+        }
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[28.85334491772715,-121.20819480175359],[42.70793826935206,-89.18966459002314]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        L.control.locate({locateOptions: {maxZoom: 19}}).addTo(map);
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        var layer_EsriLightGray_0 = L.tileLayer('http://server.arcgisonline.com/arcgis/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+            opacity: 1.0,
+            attribution: '',
+            minZoom: 1,
+            maxZoom: 28,
+            minNativeZoom: 0,
+            maxNativeZoom: 22
+        });
+        layer_EsriLightGray_0;
+        map.addLayer(layer_EsriLightGray_0);
+        function pop_UnitedStates_1(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['REGION'] !== null ? Autolinker.link(feature.properties['REGION'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['DIVISION'] !== null ? Autolinker.link(feature.properties['DIVISION'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['STATEFP'] !== null ? Autolinker.link(feature.properties['STATEFP'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['STATENS'] !== null ? Autolinker.link(feature.properties['STATENS'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['GEOID'] !== null ? Autolinker.link(feature.properties['GEOID'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['STUSPS'] !== null ? Autolinker.link(feature.properties['STUSPS'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">NAME</th>\
+                        <td>' + (feature.properties['NAME'] !== null ? Autolinker.link(feature.properties['NAME'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['LSAD'] !== null ? Autolinker.link(feature.properties['LSAD'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['MTFCC'] !== null ? Autolinker.link(feature.properties['MTFCC'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FUNCSTAT'] !== null ? Autolinker.link(feature.properties['FUNCSTAT'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['ALAND'] !== null ? Autolinker.link(feature.properties['ALAND'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['AWATER'] !== null ? Autolinker.link(feature.properties['AWATER'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['INTPTLAT'] !== null ? Autolinker.link(feature.properties['INTPTLAT'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['INTPTLON'] !== null ? Autolinker.link(feature.properties['INTPTLON'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['popdens1'] !== null ? Autolinker.link(feature.properties['popdens1'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['POPDENSITY_POPDENS'] !== null ? Autolinker.link(feature.properties['POPDENSITY_POPDENS'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_UnitedStates_1_0(feature) {
+            if (feature.properties['popdens1'] >= 1.000000 && feature.properties['popdens1'] <= 112.000000 ) {
+                return {
+                pane: 'pane_UnitedStates_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(202,0,32,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['popdens1'] >= 112.000000 && feature.properties['popdens1'] <= 251.000000 ) {
+                return {
+                pane: 'pane_UnitedStates_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(244,165,130,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['popdens1'] >= 251.000000 && feature.properties['popdens1'] <= 485.000000 ) {
+                return {
+                pane: 'pane_UnitedStates_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,255,255,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['popdens1'] >= 485.000000 && feature.properties['popdens1'] <= 871.000000 ) {
+                return {
+                pane: 'pane_UnitedStates_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(186,186,186,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['popdens1'] >= 871.000000 && feature.properties['popdens1'] <= 1218.000000 ) {
+                return {
+                pane: 'pane_UnitedStates_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(64,64,64,1.0)',
+                interactive: true,
+            }
+            }
+        }
+        map.createPane('pane_UnitedStates_1');
+        map.getPane('pane_UnitedStates_1').style.zIndex = 401;
+        map.getPane('pane_UnitedStates_1').style['mix-blend-mode'] = 'normal';
+        var layer_UnitedStates_1 = new L.geoJson(json_UnitedStates_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_UnitedStates_1',
+            layerName: 'layer_UnitedStates_1',
+            pane: 'pane_UnitedStates_1',
+            onEachFeature: pop_UnitedStates_1,
+            style: style_UnitedStates_1_0,
+        });
+        bounds_group.addLayer(layer_UnitedStates_1);
+        map.addLayer(layer_UnitedStates_1);
+        function pop_NationalParks_2(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['UNIT_TYPE'] !== null ? Autolinker.link(feature.properties['UNIT_TYPE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['STATE'] !== null ? Autolinker.link(feature.properties['STATE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['REGION'] !== null ? Autolinker.link(feature.properties['REGION'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['UNIT_CODE'] !== null ? Autolinker.link(feature.properties['UNIT_CODE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>UNIT_NAME</strong><br />' + (feature.properties['UNIT_NAME'] !== null ? Autolinker.link(feature.properties['UNIT_NAME'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['DATE_EDIT'] !== null ? Autolinker.link(feature.properties['DATE_EDIT'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['GIS_NOTES'] !== null ? Autolinker.link(feature.properties['GIS_NOTES'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['CREATED_BY'] !== null ? Autolinker.link(feature.properties['CREATED_BY'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['METADATA'] !== null ? Autolinker.link(feature.properties['METADATA'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['PARKNAME'] !== null ? Autolinker.link(feature.properties['PARKNAME'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['NUMVIS'] !== null ? Autolinker.link(feature.properties['NUMVIS'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['NATPARKVIS_VISITORS'] !== null ? Autolinker.link(feature.properties['NATPARKVIS_VISITORS'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_NationalParks_2_0(feature) {
+            if (feature.properties['NUMVIS'] >= 9591.000000 && feature.properties['NUMVIS'] <= 1283771.800000 ) {
+                return {
+                pane: 'pane_NationalParks_2',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(211,232,253,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['NUMVIS'] >= 1283771.800000 && feature.properties['NUMVIS'] <= 2557952.600000 ) {
+                return {
+                pane: 'pane_NationalParks_2',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(172,208,240,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['NUMVIS'] >= 2557952.600000 && feature.properties['NUMVIS'] <= 3832133.400000 ) {
+                return {
+                pane: 'pane_NationalParks_2',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,170,223,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['NUMVIS'] >= 3832133.400000 && feature.properties['NUMVIS'] <= 5106314.200000 ) {
+                return {
+                pane: 'pane_NationalParks_2',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(40,121,185,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['NUMVIS'] >= 5106314.200000 && feature.properties['NUMVIS'] <= 6380495.000000 ) {
+                return {
+                pane: 'pane_NationalParks_2',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(8,48,107,1.0)',
+                interactive: true,
+            }
+            }
+        }
+        map.createPane('pane_NationalParks_2');
+        map.getPane('pane_NationalParks_2').style.zIndex = 402;
+        map.getPane('pane_NationalParks_2').style['mix-blend-mode'] = 'normal';
+        var layer_NationalParks_2 = new L.geoJson(json_NationalParks_2, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_NationalParks_2',
+            layerName: 'layer_NationalParks_2',
+            pane: 'pane_NationalParks_2',
+            onEachFeature: pop_NationalParks_2,
+            style: style_NationalParks_2_0,
+        });
+        bounds_group.addLayer(layer_NationalParks_2);
+        map.addLayer(layer_NationalParks_2);
+        setBounds();
+        var i = 0;
+        layer_NationalParks_2.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['UNIT_NAME'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Bahnschrift SemiLight Condensed\', sans-serif;">' + layer.feature.properties['UNIT_NAME']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_NationalParks_2'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        resetLabels([layer_NationalParks_2]);
+        map.on("zoomend", function(){
+            resetLabels([layer_NationalParks_2]);
+        });
+        map.on("layeradd", function(){
+            resetLabels([layer_NationalParks_2]);
+        });
+        map.on("layerremove", function(){
+            resetLabels([layer_NationalParks_2]);
+        });
+        </script>
+    </body>
+</html>
