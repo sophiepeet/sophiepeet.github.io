@@ -2,8 +2,8 @@
 <br>
 [<img src="/images/WebMapSS.PNG?raw=true"/>](https://sophiepeet.github.io/webmap/qgis2web_2020_02_19-11_29_49_299210/index.html)
 <br>
+<br>
 **Legend**<br>
-
 <img src="https://sophiepeet.github.io/images/WebMapLegend.PNG?raw=true"/><br>
 
 ### **Project description:** <br>
