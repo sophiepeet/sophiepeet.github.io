@@ -8,9 +8,11 @@ layout: default
  [Effect of Highway Access and State Population Density on Visitors to National Parks](/projects/index.html)
  
  
- Legend
- Analysis()
- This is a webmap created in QGIS using data from the National Park Service (NPS) and the United States Census Bureau. The purpose of this map to see if either of the factors; proximity to a highway, or states population density, affect the amount of people that visit a given national park in a year (2018).
+ Legend<br>
+ 
+ Analysis()<br>
+ Overview<br>
+This is a webmap created in QGIS using data from the National Park Service (NPS) and the United States Census Bureau. The purpose of this map to see if either of the factors; proximity to a highway, or states population density, affect the amount of people that visit a given national park in a year (2018).
  
  
 ---
