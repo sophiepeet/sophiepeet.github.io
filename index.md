@@ -5,7 +5,7 @@ layout: default
 # GIS Portfolio
 ## Current and Previous Projects
 ---
- [Effect of Highway Proximity on Visitors to National Parks](/webmap/qgis2web_2020_02_19-11_29_49_299210/index.html)
+ [Effect of Highway Proximity on Visitors to National Parks](https://sophiepeet.github.io/webmap/qgis2web_2020_02_19-11_29_49_299210/index.html)
  
  
  Legend<br>
