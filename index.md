@@ -8,9 +8,9 @@ layout: default
  [Effect of Highway Proximity on Visitors to National Parks](https://sophiepeet.github.io/webmap/qgis2web_2020_02_19-11_29_49_299210/index.html)
  
  
- Legend<br>
- 
- Analysis()<br>
+ <big>Legend</big><br>
+ [<img src="webamp/WebMapLegend.png?raw=true"/>]
+ [Analysis] (/webmap/WMProject)<br>
  Overview<br>
 This is a webmap created in QGIS using data from the National Park Service (NPS) and the United States Census Bureau, and Google Mpas Basemap. The purpose of this map to see if proximity to a highway affects the amount of people that visit a given national park in a year (visitor data, 2018).
  
