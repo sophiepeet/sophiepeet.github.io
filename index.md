@@ -9,7 +9,7 @@ layout: default
  
  
  ### Legend <br>
- [<img src="webmap/WebMapLegend.png?raw=true"/>]
+ [<img src="webmap/WebMapLegend.png?raw=true"/>]<br>
  [Analysis] (/webmap/WMProject)<br>
  Overview<br>
 This is a webmap created in QGIS using data from the National Park Service (NPS) and the United States Census Bureau, and Google Mpas Basemap. The purpose of this map to see if proximity to a highway affects the amount of people that visit a given national park in a year (visitor data, 2018).
