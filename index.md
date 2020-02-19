@@ -9,7 +9,7 @@ layout: default
  
  
  ### Legend <br>
- [<img src="images/WebMapLegend.png?raw=true"/>]<br>
+ <img src="/images/WebMapLegend.png?raw=true"/><br>
  
  [Analysis] (/webmap/WMProject)<br>
  
