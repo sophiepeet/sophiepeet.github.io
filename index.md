@@ -3,7 +3,7 @@ layout: default
 ---
 
 # GIS Portfolio
-## Current and Previous Projects
+## Projects
 ---
  [Effect of Highway Proximity on Visitors to National Parks](/projects/WMProj)<br>
  
