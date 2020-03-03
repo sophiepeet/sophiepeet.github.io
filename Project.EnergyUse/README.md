@@ -4,4 +4,4 @@
 #What percentage of each type of energy is being used for each country.
 #I will create a csv that has the data for these specific countries stats.
 #This data will be joined with a vector layer of each countries shapefile.
-#
+
