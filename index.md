@@ -6,10 +6,11 @@ layout: default
 ## Projects
 ---
 [Number of Prisons and Rates of Incarceration per State in the United States](/Project1/index.md)<br><br>
-[<img src="snapshot.png?raw=true"/>](Project1/IncarcUSA1.pdf) <br><br>
-This series of maps explores the possibility of total polar and global ice melt, and shows how each of these conditions would affect Antarcticas land cover. There are also references for current conditions, of general elevation and bedrock elevation.
- 
- ---
+[<img src="snapshot.PNG?raw=true"/>](Project1/IncarcUSA1.pdf) <br><br>
+This map explores prisons in the each state of the United States two ways; rate of incarceration(per 1000 people) and number of prisons in each state. This map was created using vector and raster analysis to have the viewer interpret the data as a comparison between these two factors.
+
+
+---
  
  [Effect of Highway Proximity on Visitors to National Parks](/projects/WMProj)<br>
  
