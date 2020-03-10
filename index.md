@@ -6,7 +6,7 @@ layout: default
 ## Projects
 ---
 [Number of Prisons and Rates of Incarceration per State in the United States](/Project1/index.md)<br><br>
-[<img src="snapshot.png?raw=true"/>](/Project1/IncarcUSA1.pdf) <br><br>
+[<img src="snapshot.png?raw=true"/>](Project1/IncarcUSA1.pdf) <br><br>
 This series of maps explores the possibility of total polar and global ice melt, and shows how each of these conditions would affect Antarcticas land cover. There are also references for current conditions, of general elevation and bedrock elevation.
  
  ---
