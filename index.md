@@ -5,6 +5,12 @@ layout: default
 # GIS Portfolio
 ## Projects
 ---
+[Number of Prisons and Rates of Incarceration per State in the United States](/Project1/index.md)<br><br>
+[<img src="snapshot.png?raw=true"/>](/Project1/IncarcUSA1.pdf) <br><br>
+This series of maps explores the possibility of total polar and global ice melt, and shows how each of these conditions would affect Antarcticas land cover. There are also references for current conditions, of general elevation and bedrock elevation.
+ 
+ ---
+ 
  [Effect of Highway Proximity on Visitors to National Parks](/projects/WMProj)<br>
  
  [<img src="images/WebMapSS.PNG?raw=true"/>](https://sophiepeet.github.io/webmap/qgis2web_2020_02_19-11_29_49_299210/index.html)
