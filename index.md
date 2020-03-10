@@ -6,7 +6,7 @@ layout: default
 ## Projects
 ---
 [Number of Prisons and Rates of Incarceration per State in the United States](/Project1/index.md)<br><br>
-[<img src="snapshot.PNG?raw=true"/>](Project1/IncarcUSA1.pdf) <br><br>
+[<img src="Project1/snapshot.PNG?raw=true"/>](Project1/IncarcUSA1.pdf) <br><br>
 This map explores prisons in the each state of the United States two ways; rate of incarceration(per 1000 people) and number of prisons in each state. This map was created using vector and raster analysis to have the viewer interpret the data as a comparison between these two factors.
 
 
