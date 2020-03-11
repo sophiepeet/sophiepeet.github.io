@@ -2,7 +2,7 @@
 ---
 
 <br>
-[<img src="/Project1/snapshot.PNG?raw=true"/>](/Project1/IncarcUSA1.pdf)
+[<img src="/Project1/coverphoto.JPG?raw=true"/>](/Project1/IncarcUSA1.pdf)
 <br>
 <br>
 ---
