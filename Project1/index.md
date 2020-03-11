@@ -5,9 +5,6 @@
 [<img src="/Project1/snapshot.PNG?raw=true"/>](/Project1/IncarcUSA1.pdf)
 <br>
 <br>
-**Legends:**<br>
-<img src="https://sophiepeet.github.io/Project1/legend1.PNG?raw=true"/>   <img src="https://sophiepeet.github.io/Project1/legend2.PNG?raw=true"/>
-
 ---
 
 ## **Project Description** <br>
