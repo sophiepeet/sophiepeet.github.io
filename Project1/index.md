@@ -1,4 +1,4 @@
-## Number of Prisons per State (USA) and Rate of Incarceration
+# Number of Prisons per State (USA) and Rate of Incarceration
 ---
 
 <br>
@@ -10,7 +10,7 @@
 
 ---
 
-### **Project description:** <br>
+## **Project description:** <br>
 The prison crisis in the United States is one that has caught the eye of the public and many social scientists. There have been problems all over with overcrowding, poor living or working conditions(sometimes both!), and wrongful imprisonment. This project just scratches the surface of these issues but looking just at the spatial component of prisons and inmates per state around the United States. The three states with the highest rate of incareration/1000 people are Oklahoma, Louisiana, and Mississippi all clock in over 1000 people. The three states with the lowest rates are Massachusetts, Vermont, and Rhode Island. Right away we can see that these two catergories are already connected over space. <br>
 We then look at the next layer and can see that most of the prisons are in the Mid-Atlantic/Southeast(sans Florida) region. If most of the incarcerated population is situated in the South then why are most of the prisons in a different region? This points to the problem of overcrowding in high-incarceration populations. We then look to the Northeast region and see that the concentration of people in prisons decreases and the number of prisons also decreases, which adds up more than it does in the South. 
 <br>
