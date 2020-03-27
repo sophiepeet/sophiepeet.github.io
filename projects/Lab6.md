@@ -1,5 +1,5 @@
 # Tweet Comparions
-##COVID19 and Donald Trump
+## COVID19 and Donald Trump
 ---
 
 <br>
