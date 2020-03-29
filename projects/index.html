@@ -70,50 +70,8 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['REGION'] !== null ? Autolinker.link(feature.properties['REGION'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['DIVISION'] !== null ? Autolinker.link(feature.properties['DIVISION'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['STATEFP'] !== null ? Autolinker.link(feature.properties['STATEFP'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['STATENS'] !== null ? Autolinker.link(feature.properties['STATENS'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['GEOID'] !== null ? Autolinker.link(feature.properties['GEOID'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['STUSPS'] !== null ? Autolinker.link(feature.properties['STUSPS'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">NAME</th>\
                         <td>' + (feature.properties['NAME'] !== null ? Autolinker.link(feature.properties['NAME'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['LSAD'] !== null ? Autolinker.link(feature.properties['LSAD'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['MTFCC'] !== null ? Autolinker.link(feature.properties['MTFCC'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['FUNCSTAT'] !== null ? Autolinker.link(feature.properties['FUNCSTAT'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['ALAND'] !== null ? Autolinker.link(feature.properties['ALAND'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['AWATER'] !== null ? Autolinker.link(feature.properties['AWATER'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['INTPTLAT'] !== null ? Autolinker.link(feature.properties['INTPTLAT'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['INTPTLON'] !== null ? Autolinker.link(feature.properties['INTPTLON'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['popdens1'] !== null ? Autolinker.link(feature.properties['popdens1'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['POPDENSITY_POPDENS'] !== null ? Autolinker.link(feature.properties['POPDENSITY_POPDENS'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
@@ -228,40 +186,13 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['UNIT_TYPE'] !== null ? Autolinker.link(feature.properties['UNIT_TYPE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <td colspan="2">' + (feature.properties['STATE'] !== null ? Autolinker.link(feature.properties['STATE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['REGION'] !== null ? Autolinker.link(feature.properties['REGION'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['UNIT_CODE'] !== null ? Autolinker.link(feature.properties['UNIT_CODE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2"><strong>UNIT_NAME</strong><br />' + (feature.properties['UNIT_NAME'] !== null ? Autolinker.link(feature.properties['UNIT_NAME'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['DATE_EDIT'] !== null ? Autolinker.link(feature.properties['DATE_EDIT'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['GIS_NOTES'] !== null ? Autolinker.link(feature.properties['GIS_NOTES'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['CREATED_BY'] !== null ? Autolinker.link(feature.properties['CREATED_BY'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['METADATA'] !== null ? Autolinker.link(feature.properties['METADATA'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['PARKNAME'] !== null ? Autolinker.link(feature.properties['PARKNAME'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['NUMVIS'] !== null ? Autolinker.link(feature.properties['NUMVIS'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['NATPARKVIS_VISITORS'] !== null ? Autolinker.link(feature.properties['NATPARKVIS_VISITORS'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
