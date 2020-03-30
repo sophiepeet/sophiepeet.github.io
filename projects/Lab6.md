@@ -3,7 +3,7 @@
 ---
 
 <br>
-[<img src="/images/screenshotLA.1.JPG?raw=true"/>]()
+[<img src="/images/screenshotLA.1.JPG?raw=true"/>](/projects/index.html)
 [<img src="/images/screenshotLA.JPG?raw=true"/>](/projects/TweetsHeatandState.pdf)
 <br>
 <br>
