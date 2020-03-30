@@ -18,7 +18,7 @@
 ### [Cornonavirus(COVID-19) USA Reference Maps, New York Times](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html)
 ### [Coronavirus(COVID-19) NYT Github Data Download](https://github.com/nytimes/covid-19-data)
 
-[Check out a cool timeseries GIF!](/projects/GIFLab6.gif)
+[Check out a cool timeseries GIF!](/projects/GIFLab6.gif)<br>
 [Download PDF](/projects/Twitter.pdf)<br>
 [Download R Code](/projects/SampleTweetSearch.R)<br>
 <a href="https://sophiepeet.github.io">Back to Home</a>
