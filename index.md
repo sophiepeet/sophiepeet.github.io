@@ -7,7 +7,7 @@ layout: default
 ---
 
 ### [Comparison of Tweets Across the United States Containing "'COVID19' or 'Trump'"](/projects/Lab6.md)<br><br>
-[<img src="images/screenshotNY.1.JPG?raw=true"/>]() <br><br>
+[<img src="images/screenshotNY.1.JPG?raw=true"/>](projects/TweetCount.pdf) <br><br>
 [<img src="images/screenshotNY.JPG?raw=true"/>](projects/TweetsHeatandState.pdf) <br><br>
 **These maps take data gathered form Twitter's API via R, to compare tweets containing the kewyord "COVID19" or "Trump", they are depicted in several different ways. The first map in this series shows the raw data gathered, with each tweet shown as a point on the map. The second map shows two different wasy to visualize the data spatially, they are shown by a density factor and a count per polygon (state) factor.**
 
