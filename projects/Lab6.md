@@ -3,7 +3,7 @@
 ---
 
 <br>
-[<img src="/images/screenshotLA.1.JPG?raw=true"/>]()
+[<img src="/images/screenshotLA.1.JPG?raw=true"/>](projects/TweetCount.pdf)
 [<img src="/images/screenshotLA.JPG?raw=true"/>](/projects/TweetsHeatandState.pdf)
 <br>
 <br>
@@ -19,7 +19,6 @@
 ### [Coronavirus(COVID-19) NYT Github Data Download](https://github.com/nytimes/covid-19-data)
 
 [Check out a cool timeseries GIF!](/projects/GIFLab6.gif)
-
 [Download PDF](/projects/TweetsHeatandState.pdf)<br>
 [Download R Code](/projects/SampleTweetSearch.R)<br>
 <a href="https://sophiepeet.github.io">Back to Home</a>
