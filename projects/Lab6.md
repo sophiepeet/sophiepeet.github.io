@@ -19,7 +19,7 @@
 ### [Coronavirus(COVID-19) NYT Github Data Download](https://github.com/nytimes/covid-19-data)
 
 [Check out a cool timeseries GIF!](/projects/GIFLab6.gif)
-[Download PDF](/projects/TweetsHeatandState.pdf)<br>
+[Download PDF](/projects/Twitter.pdf)<br>
 [Download R Code](/projects/SampleTweetSearch.R)<br>
 <a href="https://sophiepeet.github.io">Back to Home</a>
 <!-- birds aren't real -->
