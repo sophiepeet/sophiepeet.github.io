@@ -8,7 +8,7 @@
 
 ---
 
-### [Snurtle Habitat Range, Utah, USA](/projects/project1) <br><br>
+### [Snurtle Habitat Range, Utah, USA](/projects/project1.md) <br><br>
 [<img src="/images/map1_ofawesomeness.png?raw=true"/>](/projects/Lab6_Part2.pdf) <br><br>
 **This map was comprised from an exercise using a model builder in ArcMap. The data and guidelines of habitat and potential habitat intersection were provided regarding these fictional creatures. These same techniques could be employed for a number of different real life scenarios.**
 
