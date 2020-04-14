@@ -1,3 +1,7 @@
+# Previous Projects
+
+---
+
 ### [Total Polar Ice Melt, Land Cover Antarctica](/projects/project2)<br><br>
 [<img src="images/map2_antarctica.png?raw=true"/>](/projects/AntarcticaMaps.pdf) <br><br>
 **This series of maps explores the possibility of total polar and global ice melt, and shows how each of these conditions would affect Antarcticas land cover. There are also references for current conditions, of general elevation and bedrock elevation. As the climate continues to change melting of permafrost is a key factor to analyze.**
