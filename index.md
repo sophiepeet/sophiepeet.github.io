@@ -19,7 +19,7 @@ layout: default
 
 ---
  
- ### [Effect of Highway Proximity on Visitors to National Parks](/projects/WMProj)<br>
+ **[Effect of Highway Proximity on Visitors to National Parks]**(/projects/WMProj)<br>
  
  [<img src="images/WebMapSS.PNG?raw=true"/>](https://sophiepeet.github.io/webmap/qgis2web_2020_02_19-11_29_49_299210/index.html)
  
