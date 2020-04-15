@@ -1,6 +1,8 @@
 # Additonal Academic Works
 
-## EPA Rainworks Challenge 2019
+-**EPA Rainworks Challenge 2019** <br>
+[Download PDF](/projects/DesignBoardp1.pdf)
 
-## Food Access during COVID - 19
-ZineMap_Peet.pdf
+- **Food Access During the COVID-19 Pandemic** <br>
+           (Baltimore County, MD)<br>
+[Download PDF](/projects/ZineMap_Peet.pdf)
