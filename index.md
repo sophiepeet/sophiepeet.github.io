@@ -30,6 +30,6 @@ layout: default
 
 ### [Previous Projects](projects/old_projects)
 
-### [Other Works](projects/otherworks)
+### [Other Academic Works](projects/otherworks)
 
 ---
