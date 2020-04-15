@@ -12,4 +12,6 @@
 **This project was completed for a course during Spring 2020, while the COVID-19 pandemic is at its peak. This map highlights food access issues for children in Baltimore County, Maryland. There are 41 free food handout sites around the county but they are not as spread out as one may anticipate. Many sections of the county are left untouched, presumably in places where children are not in greatest need. Although this is a great program and is probably reaching many children who are in severe need of food, there are a set of issues with any program as such. This creates and unequal food lanscape around the city/county and forces children with no other means to travel farther than normal to obtain food, at a higher risk to their health and saftey.**
 <br><br>
 [Download PDF](/projects/ZineMap_Peet.pdf)
----
+<br>
+<br>
+[Back to Home](https://sophiepeet.github.io)
