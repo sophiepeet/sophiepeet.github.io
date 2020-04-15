@@ -72,66 +72,6 @@
         });
         layer_GoogleMaps_0;
         map.addLayer(layer_GoogleMaps_0);
-        function pop_dissolvebuffers_1(feature, layer) {
-            layer.on({
-                mouseout: function(e) {
-                    for (i in e.target._eventParents) {
-                        e.target._eventParents[i].resetStyle(e.target);
-                    }
-                    if (typeof layer.closePopup == 'function') {
-                        layer.closePopup();
-                    } else {
-                        layer.eachLayer(function(feature){
-                            feature.closePopup()
-                        });
-                    }
-                },
-                mouseover: highlightFeature,
-            });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? Autolinker.link(feature.properties['fid'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['UNIT_TYPE'] !== null ? Autolinker.link(feature.properties['UNIT_TYPE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['STATE'] !== null ? Autolinker.link(feature.properties['STATE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['REGION'] !== null ? Autolinker.link(feature.properties['REGION'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['UNIT_CODE'] !== null ? Autolinker.link(feature.properties['UNIT_CODE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['UNIT_NAME'] !== null ? Autolinker.link(feature.properties['UNIT_NAME'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['DATE_EDIT'] !== null ? Autolinker.link(feature.properties['DATE_EDIT'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['GIS_NOTES'] !== null ? Autolinker.link(feature.properties['GIS_NOTES'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['CREATED_BY'] !== null ? Autolinker.link(feature.properties['CREATED_BY'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['METADATA'] !== null ? Autolinker.link(feature.properties['METADATA'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['PARKNAME'] !== null ? Autolinker.link(feature.properties['PARKNAME'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['NUMVIS'] !== null ? Autolinker.link(feature.properties['NUMVIS'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['NATPARKVIS_VISITORS'] !== null ? Autolinker.link(feature.properties['NATPARKVIS_VISITORS'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                </table>';
-            layer.bindPopup(popupContent, {maxHeight: 400});
-        }
-
         function style_dissolvebuffers_1_0() {
             return {
                 pane: 'pane_dissolvebuffers_1',
@@ -144,7 +84,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(136,132,132,0.7725490196078432)',
-                interactive: true,
+                interactive: false,
             }
         }
         map.createPane('pane_dissolvebuffers_1');
@@ -152,7 +92,7 @@
         map.getPane('pane_dissolvebuffers_1').style['mix-blend-mode'] = 'normal';
         var layer_dissolvebuffers_1 = new L.geoJson(json_dissolvebuffers_1, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_dissolvebuffers_1',
             layerName: 'layer_dissolvebuffers_1',
             pane: 'pane_dissolvebuffers_1',
