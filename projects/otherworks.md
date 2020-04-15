@@ -2,7 +2,7 @@
 ---
 ### **EPA Rainworks Challenge 2019**
 ---
-**This project was completely during a course at University of Maryland, Baltimore County with a focus on Ecohydrolygy. This project was conmpleted with Sarah Carpe and Matt Edgley. Our focus for this project was Landscape architecture. On this design board you will see a section of the UMBC transformed into an effective stormwater management zone, while also effectively showing an aestetically pleasing aspect. This project highlights low impact deisgn and submerged gravel wetlands. This design works with the existing landscape to create a system of terraces to guide rainwater into retention ponds. There is also an option for monitoring equipment and an outdoor classroom.**
+**This project was completely during a course at University of Maryland, Baltimore County with a focus on Ecohydrolygy. The focus was to explore the [EPA Rainworks Challenge](https://www.epa.gov/green-infrastructure/campus-rainworks-challenge-0) as a template to explore stormwater management and green infrastructure. This project was conmpleted with Sarah Carpe and Matt Edgley. Our focus for this project was Landscape architecture. On this design board you will see a section of the UMBC transformed into an effective stormwater management zone, while also effectively showing an aestetically pleasing aspect. This project highlights low impact deisgn and submerged gravel wetlands. This design works with the existing landscape to create a system of terraces to guide rainwater into retention ponds. There is also an option for monitoring equipment and an outdoor classroom.**
 <br><br>
 [Download PDF](/projects/DeignBoardp1.pdf)
 ---
