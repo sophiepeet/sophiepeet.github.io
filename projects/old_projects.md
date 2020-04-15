@@ -15,4 +15,3 @@
 ---
 
 <a href="https://sophiepeet.github.io">Back to Home</a>
-<!-- birds ain't real babyyy --!>
