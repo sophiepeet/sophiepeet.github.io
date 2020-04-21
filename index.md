@@ -6,7 +6,7 @@ layout: default
 ## Projects
 ---
 ### [Spread of Food Stores within Maryland, Comparative Analysis to Average Household Income](/FoodSpreadProject/index.md)<br><br>
-[<img src="FoodSpreadProject/.JPG?raw=true"/>](FoodSpreadProject/AllPDFs_Project2_Peet.pdf)
+[<img src="FoodSpreadProject/incomestores.PNG?raw=true"/>](FoodSpreadProject/AllPDFs_Project2_Peet.pdf)
 ---
 ### [Comparison of Tweets Across the United States Containing "'COVID19' or 'Trump'"](/projects/Lab6.md)<br><br>
 [<img src="images/screenshotNY.1.JPG?raw=true"/>](projects/TweetCount.pdf) <br><br>
