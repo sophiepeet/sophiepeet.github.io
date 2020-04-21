@@ -11,21 +11,21 @@
 **Each map below was created using a series of scripts using Python in QGIS. (Link to code below). Some functions used via Python are: Select by Expression, Field Calculator and Adding Attribute Fields, Save New layer, Clip Points to a Polygon, and Count Points in a Polygon. This series of maps shows the "counties of interest" in more depth with the locations of all of their food stores, and includes additional statistics for each county. One noteable statistic, that can also be seen in the graphs is each county has the highest percentage of Small Grocery Stores and Corner Stores.**
 <br>
 <br>
-[Howard County]()
+Howard County
 <br>
 <br>
-[Montgomery County]()
+Montgomery County
 <br>
 <br>
-[Worchester County]()
+Worchester County
 <br>
 <br>
-[Somerset County]()
+Somerset County
 <br>
 <br>
 <br>
 <br>
-[Download ALL PDF's]()
+[Download ALL PDF's](/FoodSpreadProject/AllPDFs_Project2_Peet.pdf)
 <br>
 [Download Python Code]()
 <br>
