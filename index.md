@@ -8,7 +8,9 @@ layout: default
 ### [Spread of Food Stores within Maryland, Comparative Analysis to Average Household Income](/FoodSpreadProject/index.md)<br><br>
 [<img src="FoodSpreadProject/incomelocations.PNG?raw=true"/>](FoodSpreadProject/AllPDFs_Project2_Peet.pdf)<br>
 **This series of maps takes data on the location of food stores in Maryland and manipulates it using Python and QGIS. They show the percentages of each type of grocery store for the two counties with the highest average household incomes (Howard and Montgomery County) and the two counties with the lowest average incomes (Worchester and Somerset County).**
+
 ---
+
 ### [Comparison of Tweets Across the United States Containing "'COVID19' or 'Trump'"](/projects/Lab6.md)<br><br>
 [<img src="images/screenshotNY.1.JPG?raw=true"/>](projects/TweetCount.pdf) <br><br>
 [<img src="images/screenshotNY.JPG?raw=true"/>](projects/TweetsHeatandState.pdf) <br><br>
