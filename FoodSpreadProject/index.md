@@ -33,7 +33,7 @@
 <br>
 **[Download ALL PDF's](/FoodSpreadProject/AllPDFs_Project2_Peet.pdf)**
 <br>
-**[Download Python Code](/FoodSpreadProject/Python Code for Counties Project.py)**
+**[Download Python Code](/FoodSpreadProject/PythonCodeCountyProject.py)**
 <br>
 <a href="https://sophiepeet.github.io">Back to Home</a>
 
