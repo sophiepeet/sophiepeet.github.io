@@ -20,9 +20,9 @@
 
 [<img src="/FoodSpreadProject/montgomery.PNG?raw=true"/>](/FoodSpreadProject/MontgomeryCounty.pdf)
 <br>
-## Worchester County
+## Dorchester County
 
-[<img src="/FoodSpreadProject/worchester.PNG?raw=true"/>](/FoodSpreadProject/WorchesterCounty.pdf)
+[<img src="/FoodSpreadProject/dorchester.PNG?raw=true"/>](/FoodSpreadProject/DorchesterCounty.pdf)
 <br>
 ## Somerset County
 
