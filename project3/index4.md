@@ -1,4 +1,4 @@
-# Food Store Types and Spread Across Maryland, Continued
+# Food Store Types and Spread Across Maryland, Part 2
 ### Counties Studied: Montgomery County, Howard County, Somerset County, Dorchester County
 
 **blah blah blah** 
