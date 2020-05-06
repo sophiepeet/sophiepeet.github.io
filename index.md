@@ -38,3 +38,8 @@ layout: default
 ### [Other Academic Works](projects/otherworks)
 
 ---
+
+$("#sparkline").sparkline([24,8,4], {
+    type: 'pie',
+    borderWidth: 1,
+    borderColor: '#000000 '});
