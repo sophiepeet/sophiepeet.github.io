@@ -7,5 +7,7 @@
 <br>
 
 
-
+**[Download PDF](/FoodSpreadProject/AllPDFs_Project2_Peet.pdf)**
+<br>
+<a href="https://sophiepeet.github.io">Back to Home</a>
 
