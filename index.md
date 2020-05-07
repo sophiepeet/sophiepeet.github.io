@@ -5,7 +5,7 @@ layout: default
 # GIS Portfolio
 ## Projects
 ---
-### [The Food Landscape of Maryland](insert story map link here)
+### [The Food Landscape of Maryland](https://storymaps.arcgis.com/stories/1e585e12a5ed417fb154d0798f054019)
 [<img src="project3/MarylandMap.JPG?raw=true"/>](/project3/index4.md)
 
 ---
