@@ -3,7 +3,7 @@
 
 **blah blah blah** 
 <br>
-[<img src="/FoodSpreadProject/incomelocations.PNG?raw=true"/>](/FoodSpreadProject/IncomeStoreLocations.pdf)
+[<img src="/FoodSpreadProject/incomelocations.PNG?raw=true"/>](/project3/index.html)
 <br>
 interactive map 1<br>
 interactive map 2<br>
