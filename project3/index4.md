@@ -1,7 +1,7 @@
-# Food Store Types and Spread Across Maryland, Part 2
+# Food Store Distribution in Maryland
 ### Counties Studied: Montgomery County, Howard County, Somerset County, Dorchester County
 
-**This project analyzes the distribution of food stores across 4 counties in Maryland using hexagons to visualize dsenisty. Below is a glimpse of the project and this [link]() takes you to an ESRI Story Map, that furthers the scope of the analysis, compares each county with each other and to the state of Maryland.** 
+**This project analyzes the distribution of food stores across 4 counties in Maryland using hexagons to visualize dsenisty. Below is a glimpse of the project and this [link](https://storymaps.arcgis.com/stories/1e585e12a5ed417fb154d0798f054019) takes you to an ESRI Story Map, that furthers the scope of the analysis, compares each county with each other and to the state of Maryland.** 
 <br>
 ### **Overview of Maryland State Food Store Distribution**
 <br>
