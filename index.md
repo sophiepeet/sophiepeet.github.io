@@ -6,7 +6,7 @@ layout: default
 ## Projects
 ---
 ### [The Food Landscape of Maryland](insert story map link here)
-[img src="project3/MarylandMap.JPG?raw=true"/>](/project3/index4.md)
+[<img src="project3/MarylandMap.JPG?raw=true"/>](/project3/index4.md)
 
 ---
 ### [Spread of Food Stores within Maryland, Comparative Analysis to Average Household Income](/FoodSpreadProject/index.md)<br><br>
