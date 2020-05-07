@@ -5,7 +5,9 @@ layout: default
 # GIS Portfolio
 ## Projects
 ---
-### [The Food Landscape of Maryland](/project3/index4.md)
+### [The Food Landscape of Maryland](insert story map link here)
+[img src="project3/MarylandMap.JPG?raw=true"/>](/project3/index4.md)
+
 ---
 ### [Spread of Food Stores within Maryland, Comparative Analysis to Average Household Income](/FoodSpreadProject/index.md)<br><br>
 [<img src="FoodSpreadProject/incomelocations.PNG?raw=true"/>](FoodSpreadProject/AllPDFs_Project2_Peet.pdf)<br>
