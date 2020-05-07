@@ -5,7 +5,7 @@
 <br>
 ### **Overview of Maryland State Food Store Distribution**
 <br>
-[<img src="/project3/MarylandMap.JPG?raw=true"/>](/project3/MD_PDF.pdf)
+[<img src="/project3/MarylandMap.JPG?raw=true"/>](https://sophiepeet.github.io/project3/MD_PDF.pdf)
 <br>
 ### **Click on the below images to access an interactive version of each map.** 
 <br>
@@ -19,7 +19,7 @@
 [<img src="/project3/SomersetCoMap.jpg?raw=true"/>](https://sophiepeet.github.io/project3/InteractiveS/index.html)
 <br>
 <br>
-[<img src="/project3/DorchesterCoMap.JPG?raw=true"/>](https://sophiepeet.github.io/project3/InteractiveM/index.html)
+[<img src="/project3/DorchesterCoMap.JPG?raw=true"/>](https://sophiepeet.github.io/project3/InteractiveD/index.html)
 <br>
 <br>
 <br>
