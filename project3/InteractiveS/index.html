@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css"><link rel="stylesheet" href="css/L.Control.Locate.min.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script><script src="js/L.Control.Locate.min.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="data/HexCountClipS_1.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[37.832514488965806,-76.38312025424587],[38.391584526171705,-75.22084307163323]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        L.control.locate({locateOptions: {maxZoom: 19}}).addTo(map);
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        map.createPane('pane_CartoDark_0');
+        map.getPane('pane_CartoDark_0').style.zIndex = 400;
+        var layer_CartoDark_0 = L.tileLayer('http://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
+            pane: 'pane_CartoDark_0',
+            opacity: 0.8,
+            attribution: '',
+            minZoom: 1,
+            maxZoom: 28,
+            minNativeZoom: 0,
+            maxNativeZoom: 22
+        });
+        layer_CartoDark_0;
+        map.addLayer(layer_CartoDark_0);
+        function pop_HexCountClipS_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">Total</th>\
+                        <td>' + (feature.properties['Total'] !== null ? autolinker.link(feature.properties['Total'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Super</th>\
+                        <td>' + (feature.properties['Super'] !== null ? autolinker.link(feature.properties['Super'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">SGCS</th>\
+                        <td>' + (feature.properties['SGCS'] !== null ? autolinker.link(feature.properties['SGCS'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">CS</th>\
+                        <td>' + (feature.properties['CS'] !== null ? autolinker.link(feature.properties['CS'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_HexCountClipS_1_0(feature) {
+            if (feature.properties['Total'] >= 0.000000 && feature.properties['Total'] <= 0.000000 ) {
+                return {
+                pane: 'pane_HexCountClipS_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,245,184,0.7)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Total'] >= 0.000000 && feature.properties['Total'] <= 1.000000 ) {
+                return {
+                pane: 'pane_HexCountClipS_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(93,201,98,0.7)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Total'] >= 1.000000 && feature.properties['Total'] <= 2.000000 ) {
+                return {
+                pane: 'pane_HexCountClipS_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(32,144,141,0.7)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Total'] >= 2.000000 && feature.properties['Total'] <= 3.000000 ) {
+                return {
+                pane: 'pane_HexCountClipS_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(58,82,139,0.7)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Total'] >= 3.000000 && feature.properties['Total'] <= 4.000000 ) {
+                return {
+                pane: 'pane_HexCountClipS_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(68,1,84,0.7)',
+                interactive: true,
+            }
+            }
+        }
+        map.createPane('pane_HexCountClipS_1');
+        map.getPane('pane_HexCountClipS_1').style.zIndex = 401;
+        map.getPane('pane_HexCountClipS_1').style['mix-blend-mode'] = 'normal';
+        var layer_HexCountClipS_1 = new L.geoJson(json_HexCountClipS_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_HexCountClipS_1',
+            layerName: 'layer_HexCountClipS_1',
+            pane: 'pane_HexCountClipS_1',
+            onEachFeature: pop_HexCountClipS_1,
+            style: style_HexCountClipS_1_0,
+        });
+        bounds_group.addLayer(layer_HexCountClipS_1);
+        map.addLayer(layer_HexCountClipS_1);
+            var abstract = new L.Control({'position':'bottomleft'});
+            abstract.onAdd = function (map) {
+                this._div = L.DomUtil.create('div',
+                'leaflet-control leaflet-bar abstract');
+                this._div.id = 'abstract'
+                    this._div.setAttribute("onmouseenter", "abstract.show()");
+                    this._div.setAttribute("onmouseleave", "abstract.hide()");
+                    this.hide();
+                    return this._div;
+                };
+                abstract.hide = function () {
+                    this._div.classList.remove("abstractUncollapsed");
+                    this._div.classList.add("abstract");
+                    this._div.innerHTML = 'i'
+                }
+                abstract.show = function () {
+                    this._div.classList.remove("abstract");
+                    this._div.classList.add("abstractUncollapsed");
+                    this._div.innerHTML = 'This map depicts Somerset County, Maryland. The data is showing the distribution of grocery/food stores around the county via hexagons. each hexagon represents 0.62 square miles. There are 21 food stores in the county and each hexagon has data for the number of stores from each main category there are in each hexagon. <br />Key: Somerset <br />Super - Supermarkets (2)<br />SGCS - Small Grocery or Corner Store (12)<br />Con - Convenience Store (7)<br />PM - Public Market (0)';
+            };
+            abstract.addTo(map);
+        var baseMaps = {};
+        L.control.layers(baseMaps,{'HexCountClipS<br /><table><tr><td style="text-align: center;"><img src="legend/HexCountClipS_1_00.png" /></td><td>0</td></tr><tr><td style="text-align: center;"><img src="legend/HexCountClipS_1_011.png" /></td><td>0 - 1</td></tr><tr><td style="text-align: center;"><img src="legend/HexCountClipS_1_122.png" /></td><td>1 - 2</td></tr><tr><td style="text-align: center;"><img src="legend/HexCountClipS_1_233.png" /></td><td>2 - 3</td></tr><tr><td style="text-align: center;"><img src="legend/HexCountClipS_1_344.png" /></td><td>3 - 4</td></tr></table>': layer_HexCountClipS_1,"Carto Dark": layer_CartoDark_0,}).addTo(map);
+        setBounds();
+        </script>
+    </body>
+</html>
